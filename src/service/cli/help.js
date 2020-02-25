@@ -1,9 +1,9 @@
 'use strict';
 
-  module.exports = {
-   name: `--help`,
-   run() {
-     const text = `
+module.exports = {
+  name: `--help`,
+  run() {
+    const text = `
      Программа запускает http-сервер и формирует файл с данными для api.
 
      Гайд:
@@ -16,6 +16,6 @@
        --generate <count>    формирует файл mocks.json
      `;
 
-      console.log(text);
-   }
+    console.log(text);
+  }
 };
